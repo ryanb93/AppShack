@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- a 'reviews' must contain 0 or many 'review' -->
+<!ELEMENT reviews (review*)>
+<!-- a 'review' must contain a single username, date, rating and comment. -->
+<!ELEMENT review (username, rating, comment)>
+<!-- review must have a unique ID number. (metadata) -->
+<!-- the data fields are a type of PCDATA -->
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>

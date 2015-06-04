@@ -1,0 +1,232 @@
+body {
+	background-color: #41434A;
+	margin-top: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #203360;
+}
+
+#container {
+	margin: 0 auto;
+	width: 900px;
+	background: #cbd4e4;
+	border-top: 3px solid #eeeeee;
+	border-bottom: 3px solid #eeeeee;
+}
+
+h1 {
+	padding-top: 5px;
+	text-align: center;
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+
+h2 {
+	text-align: left;
+}
+
+h3 {
+	text-align: center;
+}
+
+a:link {
+	color: #41434A;
+} 
+a:visited {
+	color: #41434A;
+} 
+a:hover {
+	color: #6E9489;
+}
+
+#dwrap div {
+	width: 24%;
+	height: 50px;
+	float: left;
+	border-radius: 15px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 2px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	background-color: #b2c2e6;
+	overflow: hidden
+}
+
+#dwrap div:hover {
+	background-color: #8ca3d9;
+}
+
+#navigation {
+	float: left;
+	width: 900px;
+	background: #cbd4e4;
+	border-bottom: 4px solid #41434A;
+	border-top: 4px solid #41434A;
+}
+
+#navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation ul li.active {
+	font-weight: bold;
+}
+
+#navigation ul li.account {
+	float: right;
+}
+
+#navigation li a {
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #203360;
+	text-decoration: none;
+	border-right: 1px solid #203360;
+}
+
+#navigation li a:hover {
+	background: #203360;
+	color: #eeeeee;
+}
+
+#content-container {
+	float: left;
+	width: 900px;
+	background: #cbd4e4;
+	border-bottom: 5px solid #eeeeee;
+	padding-bottom: 10px;
+}
+
+#content {
+	clear: right;
+	float: right;
+	width: 620px;
+	display: inline;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#content h2 {
+	margin: 0;
+}
+
+#sidebar {
+	float: left;
+	width: 240px;
+	padding-left: 20px;
+	display: inline;
+}
+
+#sidebar h3 {
+	margin: 0;
+}
+
+.search {
+	padding-top: 2px;
+	margin-bottom: -1em;
+}
+
+.review {
+	border-bottom: 2px solid #5375c6;
+	margin-bottom: 10px;
+}
+
+.odd {
+	background: #8ca3d9;
+}
+
+.title {
+	float: left;
+	padding-right: 20px;
+}
+
+.reviewtext {
+	text-align: left;
+	width: 100%;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	height: 1%;
+}
+
+#footercontent {
+	text-align: right;
+}
+
+#searchbar {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.signUpInput, .errorBox {
+	padding: 5px;
+	border: 1px solid #96A6C5;
+	margin-top: 5px;
+	width: 200px;
+	font-size: 15px;
+}
+
+label {
+	font-size: 15px;
+	display: block;
+	text-align: right;
+}
+
+#registration,.registered {
+	border: 3px solid #eeeeee;
+	padding: 15px;
+	background: #cbd4e4;
+	margin: 30px auto 40px auto;
+	width: 400px;
+}
+
+.form-title {
+	font-size: 20px;
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.form-sub-title {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+	font-weight: normal;
+	padding: 6px 0 15px 0;
+}
+
+.signup {
+	width: auto;
+	margin: 10px 0 0 2px;
+	padding: 3px 4px 3px 4px;
+	color: white;
+	background-color: #6E9489;
+	outline: none;
+	border: 1px solid #006600;
+	font-weight: bold;
+}
+
+.signup.active {
+	background-color: #9ab4ad;
+	padding: 3px 5px 4px 4px;
+
+}
+
+#errorBox {
+	background-color: #ffd5cf;
+	border: 1px solid #96290b;
+	padding: 7px 3px;
+	text-align: center;
+	margin-top: 10px;
+	visibility: hidden;
+}
