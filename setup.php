@@ -1,6 +1,6 @@
 <?php
 session_start();
-$host = "localhost";
+$host = "127.0.0.1";
 $databaseUsername = "root";
 $databasePassword = "";
 $databaseName = "rb00166";
